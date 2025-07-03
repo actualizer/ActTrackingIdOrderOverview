@@ -68,23 +68,25 @@ ActTrackingIdOrderOverview/
 │   └── Resources/
 │       ├── app/
 │       │   └── administration/
-│       │       ├── src/
-│       │       │   ├── main.js
-│       │       │   ├── module/
-│       │       │   │   └── sw-order/
-│       │       │   │       └── page/
-│       │       │   │           └── sw-order-list/
-│       │       │   │               ├── index.js
-│       │       │   │               └── sw-order-list.html.twig
-│       │       │   └── snippet/
-│       │       │       ├── de-DE.json
-│       │       │       └── en-GB.json
-│       │       └── public/
-│       │           └── administration/
-│       │               └── js/
-│       │                   └── act-tracking-id-order-overview.js
-│       └── config/
-│           └── plugin.png
+│       │       └── src/
+│       │           ├── main.js
+│       │           ├── module/
+│       │           │   └── sw-order/
+│       │           │       └── page/
+│       │           │           └── sw-order-list/
+│       │           │               ├── index.js
+│       │           │               └── sw-order-list.html.twig
+│       │           └── snippet/
+│       │               ├── de-DE.json
+│       │               └── en-GB.json
+│       ├── config/
+│       │   └── plugin.png
+│       └── public/
+│           └── administration/
+│               ├── .vite/
+│               └── assets/
+│                   ├── act-tracking-id-order-overview-[hash].js
+│                   └── act-tracking-id-order-overview-[hash].js.map
 ```
 
 ## Development
