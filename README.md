@@ -4,12 +4,12 @@ A Shopware 6 plugin that enhances the admin order overview by adding a tracking 
 
 ## Features
 
-- ✅ Adds "Tracking Number" column to the admin order overview
-- ✅ Displays all tracking numbers for deliveries directly in the order listing
-- ✅ Supports multiple tracking numbers per order
-- ✅ Seamless integration with Shopware's admin interface
-- ✅ Multi-language support (German & English)
-- ✅ Compatible with Shopware 6.6.10 - 6.7.x
+- Adds "Tracking Number" column to the admin order overview
+- Displays all tracking numbers for deliveries directly in the order listing
+- Supports multiple tracking numbers per order
+- Seamless integration with Shopware's admin interface
+- Multi-language support (German & English)
+- Compatible with Shopware 6.6.10 - 6.7.x
 
 ## Requirements
 
@@ -55,39 +55,6 @@ The plugin includes translations for:
 
 Translation keys:
 - `sw-order.list.columnTrackingId`
-
-## File Structure
-
-```
-ActTrackingIdOrderOverview/
-├── composer.json
-├── LICENSE
-├── README.md
-├── src/
-│   ├── ActTrackingIdOrderOverview.php
-│   └── Resources/
-│       ├── app/
-│       │   └── administration/
-│       │       └── src/
-│       │           ├── main.js
-│       │           ├── module/
-│       │           │   └── sw-order/
-│       │           │       └── page/
-│       │           │           └── sw-order-list/
-│       │           │               ├── index.js
-│       │           │               └── sw-order-list.html.twig
-│       │           └── snippet/
-│       │               ├── de-DE.json
-│       │               └── en-GB.json
-│       ├── config/
-│       │   └── plugin.png
-│       └── public/
-│           └── administration/
-│               ├── .vite/
-│               └── assets/
-│                   ├── act-tracking-id-order-overview-[hash].js
-│                   └── act-tracking-id-order-overview-[hash].js.map
-```
 
 ## Development
 
