@@ -18,6 +18,17 @@ A Shopware 6 plugin that enhances the admin order overview by adding a tracking 
 
 ## Installation
 
+### Via Composer (recommended)
+
+```bash
+composer require actualizer/tracking-id-order-overview
+bin/console plugin:refresh
+bin/console plugin:install --activate ActTrackingIdOrderOverview
+bin/console cache:clear
+```
+
+### Manual
+
 1. Download or clone this plugin into your `custom/plugins/` directory
 2. Install and activate the plugin via CLI:
    ```bash
