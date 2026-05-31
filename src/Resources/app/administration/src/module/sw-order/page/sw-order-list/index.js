@@ -1,4 +1,3 @@
-const { Component } = Shopware;
 import template from './sw-order-list.html.twig';
 
 

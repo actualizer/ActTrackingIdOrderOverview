@@ -1,18 +1,24 @@
 {
     "name": "actualizer/tracking-id-order-overview",
     "description": "Enhances the order overview with a tracking number column for improved order management",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "type": "shopware-platform-plugin",
     "authors": [
         {
             "name": "Actualize",
-            "homepage" : "https://www.actualize.de/"
+            "email": "plugin@actualize.de",
+            "homepage": "https://actualize.de",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=8.3",
         "shopware/core": ">=6.6.10 <6.8.0"
+    },
+    "scripts": {
+        "format": "docker run --rm -v $(pwd):/ext shopware/shopware-cli:latest extension format /ext",
+        "check": "docker run --rm -v $(pwd):/ext shopware/shopware-cli:latest extension validate --full /ext"
     },
     "extra": {
         "shopware-plugin-class": "ActTrackingIdOrderOverview\\ActTrackingIdOrderOverview",
@@ -21,10 +27,17 @@
             "en-GB": "Actualize: Show tracking number in order overview"
         },
         "description": {
-            "de-DE": "Erweitert die Bestellübersicht um eine Spalte für Trackingnummern für eine bessere Bestellverwaltung.",
-            "en-GB": "Enhances the order overview with a tracking number column for improved order management"
+            "de-DE": "Erweitert die Bestellübersicht im Admin um eine Spalte für Trackingnummern, sodass Sendungen direkt aus der Liste nachverfolgt und Bestellungen schneller verwaltet werden können.",
+            "en-GB": "Adds a dedicated tracking number column to the order overview in the administration so shipments can be followed straight from the list and orders managed faster."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://actualize.de",
+            "en-GB": "https://actualize.de"
+        },
+        "supportLink": {
+            "de-DE": "https://actualize.de",
+            "en-GB": "https://actualize.de"
         }
-
     },
     "autoload": {
         "psr-4": {
