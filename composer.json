@@ -1,7 +1,7 @@
 {
     "name": "actualizer/tracking-id-order-overview",
     "description": "Enhances the order overview with a tracking number column for improved order management",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
     "type": "shopware-platform-plugin",
     "authors": [
