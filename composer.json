@@ -1,7 +1,7 @@
 {
     "name": "actualizer/tracking-id-order-overview",
     "description": "Enhances the order overview with a tracking number column for improved order management",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "type": "shopware-platform-plugin",
     "authors": [
@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=8.3",
-        "shopware/core": ">=6.6.10 <6.8.0"
+        "php": ">=8.4",
+        "shopware/core": ">=6.7 <6.8"
     },
     "scripts": {
         "format": "docker run --rm -v $(pwd):/ext shopware/shopware-cli:latest extension format /ext",
