@@ -2,6 +2,11 @@
 
 A Shopware 6 plugin that enhances the admin order overview by adding a tracking number column, allowing merchants to view shipment tracking numbers directly in the order list without having to open individual order details.
 
+## Requirements
+
+- Shopware `>=6.7 <6.8`, tested with 6.7.16.0
+- PHP 8.4 or higher
+
 ## Features
 
 - Adds "Tracking Number" column to the admin order overview
@@ -9,11 +14,6 @@ A Shopware 6 plugin that enhances the admin order overview by adding a tracking 
 - Supports multiple tracking numbers per order
 - Seamless integration with Shopware's admin interface
 - Multi-language support (German & English)
-
-## Requirements
-
-- Shopware `>=6.7 <6.8`, tested with 6.7.16.0
-- PHP 8.4 or higher
 
 ## Installation
 
