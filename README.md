@@ -9,7 +9,6 @@ A Shopware 6 plugin that enhances the admin order overview by adding a tracking 
 - Supports multiple tracking numbers per order
 - Seamless integration with Shopware's admin interface
 - Multi-language support (German & English)
-- Compatible with Shopware 6.7
 
 ## Requirements
 
@@ -85,8 +84,6 @@ The plugin extends Shopware's Vue.js admin interface:
 
 ## Compatibility
 
-- **Shopware Version**: 6.7
-- **PHP Version**: 8.4+
 - **Admin Compatibility**: Uses Shopware 6.7 admin structure
 - **Frontend Impact**: None (admin-only plugin)
 
