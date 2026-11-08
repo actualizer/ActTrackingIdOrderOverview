@@ -1,8 +1,11 @@
 {
   "main.js": {
-    "file": "assets/act-tracking-id-order-overview-DAkQ7qNP.js",
+    "file": "assets/act-tracking-id-order-overview-ClBM-PGz.js",
     "name": "act-tracking-id-order-overview",
     "src": "main.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/act-tracking-id-order-overview-Lmv1QOYB.css"
+    ]
   }
 }

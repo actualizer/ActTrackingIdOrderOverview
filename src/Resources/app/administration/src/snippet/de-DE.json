@@ -3,5 +3,21 @@
     "list": {
       "columnTrackingId": "Trackingnummer"
     }
+  },
+  "act-tracking-id-order-overview": {
+    "settings": {
+      "info": {
+        "howTo": {
+          "title": "So funktioniert's",
+          "item1": "Das Plugin braucht keine Einstellungen. Nach der Aktivierung zeigt <strong>Bestellungen &gt; Übersicht</strong> die Spalte <strong>Trackingnummer</strong>.",
+          "item2": "Hat eine Bestellung mehrere Lieferungen oder Sendungsnummern, stehen alle durch Komma getrennt in der Spalte.",
+          "item3": "Die Nummern stammen aus der Lieferung der Bestellung. Gepflegt werden sie in der Bestellung unter <strong>Details</strong> &gt; <strong>Versand</strong>.",
+          "item4": "Die Spalte lässt sich wie jede andere über die Spalteneinstellungen der Tabelle aus- und einblenden."
+        },
+        "openOrderListLink": "Zur Bestellübersicht",
+        "description": "Zeigt die Trackingnummern direkt in der Bestellübersicht.",
+        "issues": "Probleme oder Feature-Wünsche?"
+      }
+    }
   }
 }

@@ -3,5 +3,21 @@
     "list": {
       "columnTrackingId": "Tracking Number"
     }
+  },
+  "act-tracking-id-order-overview": {
+    "settings": {
+      "info": {
+        "howTo": {
+          "title": "How it works",
+          "item1": "The plugin needs no configuration. After activation <strong>Orders &gt; Overview</strong> shows the column <strong>Tracking Number</strong>.",
+          "item2": "If an order has several deliveries or tracking codes, all of them appear in the column, separated by commas.",
+          "item3": "The numbers come from the order's delivery. They are maintained in the order under <strong>Details</strong> &gt; <strong>Shipping</strong>.",
+          "item4": "Like any other column it can be hidden or shown through the table's column settings."
+        },
+        "openOrderListLink": "Open the order overview",
+        "description": "Shows the tracking numbers directly in the order overview.",
+        "issues": "Problems or feature requests?"
+      }
+    }
   }
 }

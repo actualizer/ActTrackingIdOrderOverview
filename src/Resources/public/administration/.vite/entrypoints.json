@@ -2,10 +2,12 @@
   "base": "/bundles/acttrackingidorderoverview/administration/",
   "entryPoints": {
     "act-tracking-id-order-overview": {
-      "css": [],
+      "css": [
+        "/bundles/acttrackingidorderoverview/administration/assets/act-tracking-id-order-overview-Lmv1QOYB.css"
+      ],
       "dynamic": [],
       "js": [
-        "/bundles/acttrackingidorderoverview/administration/assets/act-tracking-id-order-overview-DAkQ7qNP.js"
+        "/bundles/acttrackingidorderoverview/administration/assets/act-tracking-id-order-overview-ClBM-PGz.js"
       ],
       "legacy": false,
       "preload": []
